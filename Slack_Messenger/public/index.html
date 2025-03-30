@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slack Messenger</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Slack Messenger</h1>
+        <div class="form-group">
+            <label for="channel-select">Select Channel:</label>
+            <select id="channel-select">
+                <option value="">Loading channels...</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="message">Your Message:</label>
+            <textarea id="message" placeholder="Type your message here..."></textarea>
+        </div>
+        <button id="send-button">Send to Slack</button>
+        <div id="status"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
